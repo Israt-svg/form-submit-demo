@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+strong{
+    color: rgb(220, 244, 236);
+}
+
+header section, main{
+   background-image: linear-gradient(180deg, rgb(18, 30, 65), rgb(17, 30, 65), rgb(16, 30, 65), rgb(15, 30, 65) ) ;
+}
+
+.sticky-nav{
+    position: fixed;
+    top: 0;
+}
+
+header section .nav-bar{
+    padding: 30px;
+}
+
+header section .nav-bar .row .col-sm-7 .nav .nav-item a{
+    color: white;
+    text-decoration: none;
+}
+
+header section .nav-bar .row .col-sm-7 .nav .nav-item a i{
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+header section .nav-bar .row .col-sm-7 .nav button{
+    width: 100px;
+    height: 45px;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 3px double rgb(255, 255, 255);
+} 
+
+/*my intro*/
+main .portfolio .row .col-sm-6 .my-intro{
+    margin-top: 20px;
+    padding-left: 80px;
+}
+
+main .portfolio .row .col-sm-6 .my-intro .sub-heading p{
+    color: rgb(213, 255, 228);
+    font-size: 20px;
+}
+
+main .portfolio .row .col-sm-6 .my-intro .main-heading-1 h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+main .portfolio .row .col-sm-6 .my-intro .main-heading-2 h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(163, 159, 159);
+}
+
+main .portfolio .row .col-sm-6 .my-intro .short-intro p{
+    color: rgb(163, 159, 159);
+    margin-top: 20px;
+}
+
+main .portfolio .row .col-sm-6 .my-intro button{
+    width: 150px;
+    height: 45px;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 3px double rgb(255, 255, 255);
+    color: white;
+    margin-top: 20px;
+}
+
+
+main .portfolio .row .col-sm-6 .social-media{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+main .portfolio .row .col-sm-6 .social-media ul{
+    list-style: none;
+    display: flex;
+}
+
+main .portfolio .row .col-sm-6 .social-media ul li{
+    justify-content: center;
+    padding: 20px;
+}
+
+main .portfolio .row .col-sm-6 .social-media ul li a{
+    color: rgb(163, 159, 159);
+    font-size: 22px;
+}
+
+/* Experience, about , wroks */
+main .portfolio .row .col-sm-6 .descp{
+    margin-left: 60px;
+    margin-right: 100px;
+    margin-top: 60px;
+    
+}
+
+main .portfolio .row .col-sm-6 .descp .about p{
+    color: rgb(163, 159, 159);
+
+}
+
+/*My Services*/
+
+main .portfolio .services{
+    background-color: #F1F1EF;
+    color: black;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+main .portfolio .services h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+main .portfolio .services .my-services .row .col-sm-4 .service-logo i:hover{
+    transform: rotate(360deg);
+    transition: all ease 1s;
+}
+
+main .portfolio .services .my-services .row .col-sm-4 .service-logo i{
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    font-size: 30px;
+    background-image: linear-gradient(180deg, rgb(18, 30, 65), rgb(17, 30, 65), rgb(16, 30, 65), rgb(15, 30, 65) ) ;
+    color: white;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+
+main .portfolio .services .my-services .row .col-sm-4 .service-name{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main .portfolio .services .my-services .row .col-sm-4 .service-descp p{
+    text-align: center;
+    width: 88%;
+    padding-left: 20px;
+}
+
+/* My Projects */
+
+main .portfolio .my-experience{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+main .portfolio .my-experience h3{
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+main .portfolio .my-experience .row .col-sm-7 .my-projects{
+    padding: 10px;
+    width: 80%;
+    margin-left: 80px;
+}
+
+main .portfolio .my-experience .row .col-sm-7 .my-projects h6{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+main .portfolio .my-experience .row .col-sm-7 .my-projects .project{
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+main .portfolio .my-experience .row .col-sm-7 .my-projects .project a{
+    text-decoration: none;
+}
+
+main .portfolio .my-experience .row .col-sm-7 .my-projects .project:hover{
+    background-color: rgb(125, 132, 130,0.5);
+}
+
+main .portfolio .my-experience .row .col-sm-7 .my-projects .project .row .col-sm-8 .page-heading h5{
+    font-size: 16px; 
+    padding-left: 10px; 
+    font-weight: 800;
+}
+
+main .portfolio .my-experience .row .col-sm-7 .my-projects .project .row .col-sm-8 .page-descp p{
+    font-size: 14px; 
+    margin-left: 10px;
+    color: rgb(163, 159, 159);
+}
+
+
+main .portfolio .my-experience .row .col-sm-5 .technologies i{
+    font-size: 70px;
+    padding: 40px;
+}
+
+main .portfolio .my-experience .row .col-sm-5 {
+    padding-left: 60px;
+}
+
+main .portfolio .my-experience .row .col-sm-5 h6{
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+main .portfolio .my-experience .row .col-sm-5 p{
+    color: rgb(163, 159, 159);
+}
+
+/*Footer Part*/
+footer .footer-part{
+    padding: 30px;
+    background-color: #F1F1EF;
+    width: 100%;
+    color: black;
+}
+
+footer .footer-part i{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+footer .footer-part p{
+    text-align: center;
+}
+footer .footer-part button{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 45px;
+    padding: 20px auto;
+}
+
+footer .footer-part button a{
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+
+footer .footer-part a .fa-shuttle-space{
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+    transform: rotate(270deg);
+    margin-top: 30px;
+}
+
+footer .footer-part a{
+    text-decoration: none;
+}
+
+/*message Page*/
+
+main .message{
+    width: 80%;
+    background-color: rgb(241, 241, 239, 0.5);
+    border-radius: 10px;
+    padding: 30px;
+    margin-left: 120px;
+}
+
+
+
+main .message h3{
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+main .message .message-section{
+    width: 100%;
+}
+
+main .message .message-section form .row{
+    align-items: center;
+    justify-content: center;
+}
+
+main .message .message-section form .row button{
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #101E41;
+    border: none; 
+    margin-top: 20px;
+    color: white;
+
+}
